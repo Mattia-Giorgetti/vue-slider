@@ -51,6 +51,10 @@ createApp({
         stopSelfSlider(){
             clearInterval(this.autosliding);
             this.autosliding = null;
+        },
+        setImage(i){
+            this.activeIndex = i;
+
         }
     },
     mounted(){
